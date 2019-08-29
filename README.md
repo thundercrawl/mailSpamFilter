@@ -1,9 +1,11 @@
 
 #HOW to deploy service 
 https://sthalles.github.io/serving_tensorflow_models/
+[TODOs]
+1. support N-GRAM  word-embedding
+2. Q&A model support
 
-
-Support features.
+[Support features.]
 
 1. tensorflow spam filter based on NN
 2. support chinese/english
