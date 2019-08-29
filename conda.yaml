@@ -1,0 +1,12 @@
+name: mailFilter
+channels:
+  - defaults
+dependencies:
+  - python==3.7
+  - tensorflow==1.14.0
+  - matplotlib
+  
+  - pip:
+    - mlflow>=1.2.0
+    - pillow
+    - jieba==0.39

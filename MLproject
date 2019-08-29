@@ -1,0 +1,10 @@
+name: mailFilter
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      multi: {type:int,default:2}
+      numEpochs: {type:int,default:25000}
+    command: "python trainML.py --multi {multi} --numEpochs {numEpochs}"
